@@ -1,0 +1,16 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --container-width: 250px;
+    --container-height: 350px;
+    --line-height: 10px;
+    --line-move-height: calc(var(--container-height));
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Energy Generator 2040",
+    "description": "A compact energy generator with high efficiency for use in urban environments. Powers all cybernetic implants.",
+    "price": 1200,
+    "category": "Cybernetics",
+    "image": "energy_generator_2040.jpg"
+  },
+  {
+    "name": "Cyber Eyes Zorya 3000",
+    "description": "High-tech cyber eyes with enhanced night vision and additional virtual reality features.",
+    "price": 1500,
+    "category": "Cyber Implants",
+    "image": "cyber_eyes_3000.jpg"
+  },
+  {
+    "name": "Anti-Gravity Boots",
+    "description": "Black boots with anti-gravity technology for smooth movement in urban spaces.",
+    "price": 800,
+    "category": "Clothing",
+    "image": "gravity_boots.jpg"
+  },
+  {
+    "name": "Neon Cyber Cigar",
+    "description": "A cigar with neon lighting that releases colored vapor clouds. Perfect accessory for nightclubs in the metropolis.",
+    "price": 200,
+    "category": "Accessories",
+    "image": "neon_cyber_cigar.jpg"
+  },
+  {
+    "name": "ARX-5 Interface Helmet",
+    "description": "Augmented reality helmet designed for integration with cyber implants and connecting to virtual worlds.",
+    "price": 2500,
+    "category": "Gadgets",
+    "image": "arx5_helmet.jpg"
+  },
+  {
+    "name": "Cyber Rubber Gloves",
+    "description": "Protective gloves with built-in sensors for controlling technology and cyber implants.",
+    "price": 500,
+    "category": "Clothing",
+    "image": "cyber_gloves.jpg"
+  },
+  {
+    "name": "Neuro-Booster",
+    "description": "A device designed to enhance cognitive functions, with embedded neural implants to increase intellectual abilities.",
+    "price": 3000,
+    "category": "Cybernetics",
+    "image": "neuro_booster.jpg"
+  },
+  {
+    "name": "Holographic Tablet",
+    "description": "A super-compact tablet with a holographic interface for virtual meetings and interactive sessions.",
+    "price": 1200,
+    "category": "Gadgets",
+    "image": "holographic_tablet.jpg"
+  },
+  {
+    "name": "Cyber Implant Charger",
+    "description": "A charger designed to maintain all cyber implants in optimal condition.",
+    "price": 400,
+    "category": "Accessories",
+    "image": "cyber_charger.jpg"
+  },
+  {
+    "name": "Neon Neck Accessory",
+    "description": "A neon neck accessory with built-in lighting effects, ideal for parties and nightclubs.",
+    "price": 150,
+    "category": "Accessories",
+    "image": "neon_neck_accessory.jpg"
+  },
+  {
+    "name": "Cyber Sleep Mask",
+    "description": "A sleep mask with built-in technology for better rest in noisy city environments.",
+    "price": 300,
+    "category": "Gadgets",
+    "image": "cyber_sleep_mask.jpg"
+  },
+  {
+    "name": "Techno Skirts with Screens",
+    "description": "Futuristic skirts with integrated screens for displaying virtual images and messages.",
+    "price": 850,
+    "category": "Clothing",
+    "image": "techno_skirts_with_screens.jpg"
+  },
+  {
+    "name": "Mechanical Birds for Decor",
+    "description": "Decorative mechanical birds that fly around a room using built-in technology.",
+    "price": 600,
+    "category": "Interior",
+    "image": "mechanical_birds_for_decor.jpg"
+  },
+  {
+    "name": "Cyber Notebook with Virtual Assistant",
+    "description": "An interactive notebook with a virtual assistant for organizing and saving data.",
+    "price": 1000,
+    "category": "Gadgets",
+    "image": "cyber_notebook_with_virtual_assistant.jpg"
+  },
+  {
+    "name": "Plant Watering Robot",
+    "description": "A small robot for automatically watering plants using artificial intelligence.",
+    "price": 500,
+    "category": "Robotics",
+    "image": "plant_watering_robot.jpg"
+  },
+  {
+    "name": "Cyber Backpack",
+    "description": "An electronic backpack with sensors for protecting personal data and tracking location.",
+    "price": 850,
+    "category": "Accessories",
+    "image": "cyber_backpack.jpg"
+  },
+  {
+    "name": "Tissue Regeneration Module",
+    "description": "An implant designed to stimulate tissue regeneration and accelerate wound healing.",
+    "price": 2000,
+    "category": "Cyber Implants",
+    "image": "tissue_regeneration_module.jpg"
+  },
+  {
+    "name": "Pen with Scanner",
+    "description": "An innovative pen combining the functions of a scanner for scanning documents and QR codes.",
+    "price": 250,
+    "category": "Gadgets",
+    "image": "pen_with_scanner.jpg"
+  },
+  {
+    "name": "Interactive Delivery Drone",
+    "description": "A small drone for delivering goods within a metropolis with autonomous navigation.",
+    "price": 1500,
+    "category": "Robotics",
+    "image": "interactive_delivery_drone.jpg"
+  },
+  {
+    "name": "Cyber Security Shield",
+    "description": "A personal cyber shield for protecting against hacker attacks and unauthorized access.",
+    "price": 2000,
+    "category": "Security",
+    "image": "cyber_shield_for_security.jpg"
+  },
+  {
+    "name": "Neural Link for Thought Reading",
+    "description": "A technology for directly reading thoughts and converting them into text or commands.",
+    "price": 3000,
+    "category": "Cyber Implants",
+    "image": "neural_link_for_thought_reading.jpg"
+  },
+  {
+    "name": "Futuristic Robot Cat",
+    "description": "A robot in the shape of a cat that functions as a domestic assistant with interactive features.",
+    "price": 1300,
+    "category": "Robotics",
+    "image": "futuristic_robot_cat.jpg"
+  },
+  {
+    "name": "Neon Glasses with HUD",
+    "description": "Glasses with an integrated HUD (Head-Up Display) for projecting data directly into the field of view.",
+    "price": 1100,
+    "category": "Accessories",
+    "image": "neon_glasses_with_hud.jpg"
+  },
+  {
+    "name": "Virtual Boxing Training",
+    "description": "A virtual boxing training system with support for gamepads and special gloves.",
+    "price": 1800,
+    "category": "Sports Equipment",
+    "image": "virtual_boxing_training.jpg"
+  }
+]

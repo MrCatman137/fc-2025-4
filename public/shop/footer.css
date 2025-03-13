@@ -1,0 +1,43 @@
+footer {
+    background: rgba(0, 0, 0, 0.9);
+    color: #00ff99;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    border-top: 2px solid #00ffff; 
+}
+
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+footer div > div {
+    display: flex;           
+    gap: 15px;               
+}
+
+footer p {
+    font-size: 16px;
+    text-shadow: 0 0 10px #00ff99;
+}
+
+
+footer div a {
+    text-decoration: none;
+    color: #ff00ff; 
+    font-size: 18px;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+footer div a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 15px #00ffff;
+}

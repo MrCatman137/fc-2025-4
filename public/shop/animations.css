@@ -1,0 +1,19 @@
+.flicker {
+    opacity: 0;
+    animation: flickerAnimation 0.1s ease-in-out infinite alternate;
+}
+
+@keyframes flickerAnimation {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes brightnessAnimation {
+    0% { filter: brightness(0%); }
+    100% { filter: brightness(80%); }
+}
+
+@keyframes scrollText {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
