@@ -34,6 +34,13 @@ header {
     font-size: 2.5vw;
 }
 
+.header-right nav ul li{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vw;
+}
+
 .background-image {
     width: 100%;
     animation: brightnessAnimation 3s ease-in-out forwards;
@@ -61,8 +68,31 @@ header {
     animation: scrollText 8s linear infinite;
 }
 
+.image-cart {
+    z-index: 2;
+    position: relative;
+    height: 5vw;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-count {
+    z-index: 2;
+    position: absolute;
+    bottom: 0.5vw;  
+    right: 0.5vw;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 768px) {
     .header-content {
         text-shadow: none !important;
     }
 }
+
+

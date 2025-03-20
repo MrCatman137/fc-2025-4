@@ -25,6 +25,10 @@
                             <li><a href="#">Main</a></li>
                             <li><a href="#filter">Products</a></li>
                             <li><a href="#contact">Contacts</a></li>
+                            <li>
+                                <img id="cart-image-button" class="image-cart" src="/shop/cart.png" alt="cart">
+                                <span id="cart-count" class="cart-count">0</span>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -52,13 +56,19 @@
                         <!-- Another categories -->
                     </select>
                 </div>
+                <span>
+                    <input type="number" id="min-price" placeholder="Min Price">
+
+                    <input type="number" id="max-price" placeholder="Max Price">
+
+                </span>
+                <span>
+                    <label for="min-price" id="min-price-label">0₴</label>
+                    <label for="max-price" id="max-price-label">100₴</label>
+                    
+                </span>
                 <div>
-                    <label for="price">Price</label>
-                    <input type="range" name="price" id="price" min="0" max="10000" step="1" value="10000">
-                    <div class="span">
-                        <span class="span-left">0</span>
-                        <span class="span-right" id="max-price">${priceInput.value}₴</span>
-                    </div>
+                    <input type="range" id="range-price" min="0" max="10000" step="1" value="10000">
                 </div>
             </aside>
 
@@ -75,6 +85,30 @@
                 <p>&copy; 2125</p>
             </div>
         </footer>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal-image" src="" alt="">
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+                <p><strong>Price:</strong> <span id="modal-price"></span>₴</p>
+                <button class="button-buy">Buy</button>
+                <button id="modal-add-cart" class="button-add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div id="cartModal" class="modal">
+            <div class="modal-content">
+                <span class="close-cart">&times;</span>
+                <h2>Your Cart</h2>
+                <div id="cart-items"></div> 
+                <p><strong>Total:</strong> <span id="cart-total">0₴</span></p>
+                <button id="buyButton" class="button-buy">Buy</button>
+            </div>
+        </div>
+
+        
         <script src="/shop/shop.js"></script>
     </body>
 </html>

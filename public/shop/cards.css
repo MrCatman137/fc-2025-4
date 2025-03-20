@@ -6,8 +6,23 @@
     aspect-ratio: 1 / 2;
     max-height: var(--container-height); 
     overflow: hidden;
+    z-index: 2;
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: fadeInUp 0.8s forwards; 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
 }
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 .card > div {
     box-sizing: border-box;
     position: absolute;
@@ -93,16 +108,136 @@
     gap: 10px; 
 }
 .button-buy {
+    height:110%;
     background: #00ff00;
     color: black;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .button-add-cart {
+    height:110%;
     background: #0040ff;
     color: rgb(255, 255, 255);
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
-.card button:hover {
+button:hover {
     background: #ff00ff;
     color: white;
+}
+/* ----- MODAL VIEW -----*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #000000;
+    padding: 20px;
+    color: #0ff;
+    border: 4px solid #0ff;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-cart {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.info-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffcc00; 
+    margin-left: 10px;
+}
+
+.info-icon:hover {
+    color: #ff9900;
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        max-width: 300px;
+    }
+    .modal-content img {
+        width: 50%;
+        height: auto;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        max-width: 250px;
+    }
+
+    .modal-content img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+}
+@media (max-height: 650px) {
+    .modal-content {
+        display: flex;
+        box-sizing: content-box;
+        max-width: 800px;
+        max-height: 300px;
+        
+    }
+    .modal-content img {
+        display: flex;
+        box-sizing: content-box;
+        width: 30%;        
+        height: 30%;          
+        margin-right: 20px;
+    }
+
+    .modal-content >
+    .button-buy {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        height:auto;
+        background: #00ff00;
+        color: black;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+    .modal-content >
+    .button-add-cart {
+        position: absolute;
+        bottom: 5px;
+        right: 45px;
+        height:auto;
+        background: #0040ff;
+        color: rgb(255, 255, 255);
+        transition: background 0.3s ease, color 0.3s ease;
+    }
 }
